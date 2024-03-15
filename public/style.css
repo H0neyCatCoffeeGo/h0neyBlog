@@ -1,77 +1,52 @@
-/* Body Styles */
-body {
+/* Define global CSS variables */
+:root {
+    --bg: #ebdbb2;
+    --text: #282828;
+    --link: #b57614;
+    --head: #076678;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #282828;
+        --text: #fbf1c7;
+        --link: #fabd2f;
+        --head: #83a598;
+    }
+}
+
+/* global */
+html {
     font-family: monospace;
+}
+
+/* body */
+body {
+    color: var(--text);
+    background-color: var(--bg);
     font-size: 18px;
-    line-height: 1.6;
-    background-color: #f8f8f8;
-    color: #333;
-    margin: 0;
-    padding: 0;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-/* Header Styles */
-header {
-    font-family: serif;
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
+h1 {
+    color: var(--head);
+    font-weight: bold;
+    font-size: 50px;
     text-align: center;
+    padding-left: 20px;
 }
 
-/* Navigation Styles */
-nav {
-    text-align: center;
+h2 {
+    font-weight: bold;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: #ccc;
-}
-
-/* Main Content Styles */
-.main-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Footer Styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-/* Image Styles */
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-/* Link Styles */
 a {
-    color: #007bff;
-    text-decoration: none;
+    color: var(--link);
 }
 
 a:hover {
-    text-decoration: underline;
+    color: var(--head);
     font-size: 20px;
 }

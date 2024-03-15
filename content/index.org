@@ -1,6 +1,8 @@
-#+TITLE: Homepage
+#+TITLE: h0ney Blogs
 #+AUTHOR: h0ney
+#+EMAIL: h0neyCatCoffeeGo@proton.me
+- [[file:./index.org][About Me]]
+- [[./journalList.org][Journals]]
+- [[./techList.org][Tech Blogs]]
 * About Me
  I am a 18 year old college who was unable to get into a good universty because of my laziness I developed during COVID. Now I am trying to get rid of this laziness. This blog is made to document my journey to help others and my self going through the same.
-- *Resources that you may find helpful*
-  - [[http://classics.mit.edu/Antoninus/meditations.html][The Meditations By Marcus Aurelius]]
