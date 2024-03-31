@@ -1,6 +1,0 @@
-# Journal Entry - 2024-02-29
-
-* Todo list
-** TODO Check Papaers
-** TODO Learn Python Syntax
-** TODO Get Absent work

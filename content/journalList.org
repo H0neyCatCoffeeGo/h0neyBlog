@@ -1,4 +1,0 @@
-#+TITLE: Journals
-#+AUTHOR: h0ney
-#+DESCRIPTION: My Daily Journals to help others
-[[./index.org][<-Back]]

@@ -1,4 +1,0 @@
-#+TITLE: Tech Blogs
-#+AUTHOR: h0ney
-#+DESCRIPTION: A list of my latest tech blogs
-[[./index.org][<-Back]]
